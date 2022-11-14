@@ -1,0 +1,7 @@
+//Test contextuellement invalide : redeclaration d'une class déjà déclarée
+
+//Resultat : Error_redeclation_of_class.deca:7:0: Class A already declared
+
+
+class A { }
+class A { }

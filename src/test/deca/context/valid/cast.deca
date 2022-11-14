@@ -1,0 +1,11 @@
+// Description:
+//    Test cast dans deux types differents et identiques
+// Resultat:
+//  
+
+{
+    int x;
+    x = (int)(10);
+    x = (int)(10.0);
+
+}

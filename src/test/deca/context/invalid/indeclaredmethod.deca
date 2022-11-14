@@ -1,0 +1,10 @@
+// test condition : method doesn't exist
+//resultat : indeclaredmethod.deca:9:4: 'A' was not declared in this scope.
+
+class A{
+
+}
+{
+    A a;
+    A.get();
+}

@@ -1,0 +1,6 @@
+#include "empty_file.deca"
+
+{
+x = readInt();
+y = readFloat();
+}

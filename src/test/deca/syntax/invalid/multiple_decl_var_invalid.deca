@@ -1,0 +1,13 @@
+// Description:
+//    Declaration invalide de plusieurs variables
+//
+// Resultats:
+//    Erreur
+//
+
+
+{
+        int;
+        int a;
+        int b;
+}

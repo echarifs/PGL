@@ -1,0 +1,9 @@
+//Test pour multiplication
+
+//Resultat: invalid type for arithmetique operation for boolean
+
+{
+    float x = 0;
+    boolean y;
+    x*y ; 
+}

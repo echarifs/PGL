@@ -1,0 +1,17 @@
+class A{
+ int a; 
+void set(int a){
+a= 10; 
+println(a);}
+}
+class B extends A{
+    int b;
+    void setb(){
+        this.a = 5;
+    }
+}
+{ 
+B o = new B() ;
+o.setb();
+println(o.a);
+}

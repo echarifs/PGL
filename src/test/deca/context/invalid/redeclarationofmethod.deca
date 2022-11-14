@@ -1,0 +1,11 @@
+// test condition 2.3 field and method can't have the same name
+//resultat : supfieldandmethod.deca:5:8: Contextual Error: redeclaration of A
+
+class A{
+        int A;
+    boolean A(){
+        ;
+    }
+
+    A a;
+}

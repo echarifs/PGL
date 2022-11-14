@@ -1,0 +1,13 @@
+// Description:
+//    Programme qui cree une classe et execute une methode sans instruction
+//
+// Resultats:
+//   Aucune erreur
+//
+
+class T {
+}
+
+{
+}
+

@@ -1,0 +1,9 @@
+//Test pour plus
+
+//Resultat: invalid type for arithmetique operation boolean and string
+
+{
+    boolean x = true;
+    string y = "";
+    x+y ; 
+}

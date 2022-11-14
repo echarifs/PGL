@@ -1,0 +1,9 @@
+//Test pour minus
+
+//Resultat: can't apply 'minus' to a boolean
+
+{
+    boolean x = true;
+    x = -x;
+    println(x) ; 
+}

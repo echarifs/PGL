@@ -1,0 +1,20 @@
+// Description:
+//    divide float int
+//
+// Resultats:
+//    6.66667e-01
+//    3.00000e+00
+//
+// Historique:
+//    cree le 01/01/2022
+
+{   
+    float a, b, c;
+  
+    b = 2.0/6.0;
+    a = 6.0/2.0;
+
+    println(a);
+    println(b);
+}
+

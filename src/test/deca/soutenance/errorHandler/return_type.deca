@@ -1,0 +1,14 @@
+class A {
+	int x;
+
+	boolean test(){
+		return x;
+	}
+
+}
+
+{
+	A a = new A();
+
+	println(a.test());
+}

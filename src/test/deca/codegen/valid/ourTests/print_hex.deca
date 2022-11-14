@@ -1,0 +1,21 @@
+// Description:
+//    ecriture de float
+//
+// Resultats:
+//    0x1p+2
+//  0x1.4p+2
+//  0x1p+0
+//  -0x1p+0
+//
+// Historique:
+//    cree le 01/01/2022
+
+{
+   float x = -1.0;
+   printx(4.0);
+   println();
+   printlnx(5.0); 
+   printx(-x);
+   println();
+   printlnx(x);
+}

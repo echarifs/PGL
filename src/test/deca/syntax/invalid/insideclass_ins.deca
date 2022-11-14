@@ -1,0 +1,7 @@
+// Resultats:
+// no viable alternative at input 'b='
+
+class A{
+    int b;
+    b = b+1;
+}

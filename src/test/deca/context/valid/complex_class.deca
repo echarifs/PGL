@@ -1,0 +1,35 @@
+// Description:
+//    Programme qui cree une classe avec plusieurs methodes et affiche un resultat
+//
+// Resultats:
+//   1
+//  champ = 1
+
+class Droite {
+    protected int champ = 0;
+    void pente(){
+        if (champ < 0){
+            println(-1);
+        }
+        else if (champ > 0){
+            println(1);
+        }
+        else {
+            println(0);
+        }
+    }
+    int compter(){
+    champ = champ + 1 ;
+    return champ;}
+}
+
+{
+    Droite test = new Droite();
+    int cpt = test.compter();
+    test.pente();
+    println("champ = ", cpt);
+
+}
+
+
+

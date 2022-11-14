@@ -1,0 +1,18 @@
+// Description:
+//    Programme qui cree une classe et execute une methode sans instruction
+//
+// Resultats:
+//   Aucune erreur
+//
+
+class T {
+    void test(){}
+}
+
+{
+    T test = new T();
+    test.test;
+}
+
+
+

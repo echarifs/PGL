@@ -1,0 +1,12 @@
+// Description:
+//    Programme minimaliste vérifiant println affiche un entier.
+//
+// Resultats:
+//    4
+//
+// Historique:
+//    cree le 01/01/2022
+
+{
+        println(4);
+}

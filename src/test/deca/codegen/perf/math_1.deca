@@ -1,0 +1,13 @@
+//Teste sin(2000)
+
+{
+    float PI = 3.1415926535897932;
+    float x = 2000;
+    int k = (int) (x*2/PI);
+    float f = x - 0.5*k*PI;
+    float sum = f - (0.1666666)*f*f*f;
+    sum = sum + (0.0083333)*f*f*f*f*f - (0.0001984)*f*f*f*f*f*f*f; 
+    sum = sum + (0.00000275)*f*f*f*f*f*f*f*f*f - (0.00000000250521)*f*f*f*f*f*f*f*f*f*f*f;
+    print("Valeur ATTENDUE = ",-0.34202014332566, "  Valeur OBTENUE ");
+    print(sum);
+}

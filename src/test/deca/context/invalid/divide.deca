@@ -1,0 +1,9 @@
+//Test pour division
+
+//Resultat: invalid type for arithmetique operation for string
+
+{
+    int x = 0;
+    string y;
+    x/y ; 
+}

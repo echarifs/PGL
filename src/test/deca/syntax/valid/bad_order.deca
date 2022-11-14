@@ -1,0 +1,15 @@
+// Description:
+//    Programme invalide contextuellement mais syntaxiquement correcte
+//    qui cree deux classes dans le mauvais ordre (une etend l'autre)
+//
+// Resultats:
+//   Aucune erreur syntaxique
+//
+
+class A extends B{
+    void testA(){}
+}
+
+class B {
+    void testB(){}
+}

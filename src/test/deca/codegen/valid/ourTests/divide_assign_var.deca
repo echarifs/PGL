@@ -1,0 +1,6 @@
+{
+float x = 2.5;
+float y = 5;
+float z = x/y;
+println(z);
+}

@@ -1,0 +1,5 @@
+// Erreur génération du code : L’utilisateur n’a pas le droit de faire une division par 0.
+
+{
+3/0;
+}

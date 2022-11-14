@@ -1,0 +1,4 @@
+//Test qui print la lecture en entree
+{
+    println(readInt());
+}

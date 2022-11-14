@@ -1,0 +1,9 @@
+//Test pour minus
+
+//Resultat: invalid type for arithmetique operation string
+
+{
+    int x = 0;
+    string y = "";
+    x-y ; 
+}

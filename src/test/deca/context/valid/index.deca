@@ -1,0 +1,20 @@
+class A{
+    int a;
+    void seta(){
+        this.a = 1;
+    }
+}
+class B extends A{
+    int a;
+    void seta(){
+        this.a = 5;
+    }
+}
+{
+    A a = new A();
+    B b = new B();
+    a.seta();
+    print(a.a);
+    b.seta();
+    print(b.a);
+}

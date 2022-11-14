@@ -1,0 +1,6 @@
+// test condition 1.3 can't extends something other than classes
+//resultat : Dupclass.deca:7:0: extends can be applied only to classes
+
+class A extends int{
+    
+}

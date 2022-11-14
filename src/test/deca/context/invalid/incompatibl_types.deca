@@ -1,0 +1,10 @@
+//Test extrait du poly
+
+//Resultat: 
+
+{
+    float x = 2.0;
+    int y = x;
+    x=readInt() ;
+    println(0.5*(x*x)) ; 
+}

@@ -1,0 +1,8 @@
+// Description:
+// 	extends deux fois
+// Result:
+//  mismatched input 'extends' expecting OBRACE
+
+class A extends B extends C{
+    
+}

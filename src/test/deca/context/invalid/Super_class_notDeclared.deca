@@ -1,0 +1,7 @@
+class A {
+    float c;
+}
+
+class B extends C{
+    A a;
+}

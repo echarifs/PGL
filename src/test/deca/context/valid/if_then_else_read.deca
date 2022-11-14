@@ -1,0 +1,19 @@
+//Test valide qui return en fonction d'une condition
+
+
+//Resultat: 1 
+
+{
+    int x = 999999;
+
+    if (x < 0){
+        println(-1);
+    }
+    else if (x == 0){
+        println(x);
+    }
+    else {
+        println(1);
+    }
+
+}

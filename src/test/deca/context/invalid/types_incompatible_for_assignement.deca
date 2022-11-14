@@ -1,0 +1,7 @@
+//Test lève erreur en vérifiant la regle 3.8
+//Resultat: 
+
+{
+    float x = 2.0;
+    int y = x;
+}

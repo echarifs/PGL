@@ -1,0 +1,14 @@
+//Test valide: Condition if-then-else avec print
+//Resultat attendu: Then x == 0
+
+{
+    int x = 0;
+   if (x > 0){
+   	println("Then x > 0 ");
+   } else if (x == 0){
+ 	println("Then x == 0");
+    }else{
+    	println("Then x < 0");
+    }
+}
+

@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste utilisant println et printx.
+//
+// Resultats:
+//    Hello
+//
+// Historique:
+//    cree le 01/01/2022
+
+{
+        int b = 3;
+        println("Hello");
+        printx(b);
+}
+

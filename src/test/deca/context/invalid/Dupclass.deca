@@ -1,0 +1,9 @@
+// test condition 1.3 reeclaration d'une class
+//resultat : Dupclass.deca:7:0: Class A already declared
+
+class A{
+
+}
+class A{
+
+}

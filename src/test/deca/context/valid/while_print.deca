@@ -1,0 +1,11 @@
+//Test valide qui test le fonctionnement de While
+
+//Resultat: 0
+
+{
+    int x = 100;
+    while (x>0){
+        x = x-1;
+    }
+    println(x);
+}

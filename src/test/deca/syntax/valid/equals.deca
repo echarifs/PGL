@@ -1,0 +1,15 @@
+{
+Object a = new Object();
+Object b = new Object();
+if (a == b) {
+println("FAIL");
+} else {
+println("SUCCESS");
+}
+
+if (a != b) {
+println("SUCCESS");
+} else {
+println("FAIL");
+}
+}

@@ -1,0 +1,10 @@
+// test condition : field doesn't exist
+//resultat : indeclaredfield.deca:6:8: 'a' was not declared in this scope.
+
+class A{
+
+}
+{
+    A a;
+    A.x=0;
+}

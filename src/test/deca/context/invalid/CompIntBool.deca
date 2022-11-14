@@ -1,0 +1,9 @@
+//Test invalide: Comparaison boolean et int
+//Resultat: Erreur ligne 6
+
+{
+    int a = 0;
+    if (a > true){
+        println("This is impossible!");
+    }
+}

@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste utilisant DECL_VAR and ASSIGN
+//
+// Resultats:
+//    int a = 1 ;
+//
+// Historique:
+//    cree le 01/01/2022
+
+{
+        int a = 1 ;
+        float f = 1.002;
+}

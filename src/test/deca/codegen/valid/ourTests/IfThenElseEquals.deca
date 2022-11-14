@@ -1,0 +1,12 @@
+{
+    int x = 1;
+    int y = 0;
+    if (x == (y - 1))
+    {
+        println("Hello");
+    }
+    else
+    {
+        println("GoodBye");
+    }
+}

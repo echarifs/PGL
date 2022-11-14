@@ -1,0 +1,6 @@
+// test condition 1.3
+//resultat : Super Class A should be declared first
+
+class B extends A{
+
+}

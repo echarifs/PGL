@@ -1,0 +1,12 @@
+//Test d'une declaration dans une condition if
+
+
+//Resultat: Erreur syntaxique
+
+{
+    int x = 1;
+    if (x<0){
+        int a = 0;
+        println(a);
+    }
+}

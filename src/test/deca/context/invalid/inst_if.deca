@@ -1,0 +1,9 @@
+//Test lève erreur en vérifiant la regle 3.29
+//Resultat: 
+
+{
+    int x = 0;
+    if(x){
+        print("yes");
+    }
+}

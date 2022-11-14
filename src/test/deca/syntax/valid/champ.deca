@@ -1,0 +1,34 @@
+// Description:
+//    Programme Codage des champs
+//
+// Resultats:
+//   Aucune erreur
+//
+class C {
+int x;
+int y=1;
+int getX() {
+return x;
+}
+void incrX() {
+x = x + 1;
+}
+}
+
+class D extends C {
+int x=3;
+int z;
+}
+
+class Q {
+float abs(float x) {
+if (x < 0.0) {
+return -x;
+}
+}
+}
+
+{
+c.x = 2;
+print(c.x);
+}

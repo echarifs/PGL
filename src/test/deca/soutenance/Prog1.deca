@@ -1,0 +1,66 @@
+class Wifi {
+
+    int cnx = 0;
+
+    void getCnx()
+    {
+        println("mon réseau Wifi est de ", this.cnx);
+    }
+
+    void setCnx(int val)
+    {
+        this.cnx = val;
+    }
+}
+
+class Telephone {
+    int reseau = 0;
+
+    void getReseau()
+    {
+        println("mon réseau mobile est de ", this.reseau);
+    }
+
+    void setReseau(int val)
+    {
+        this.reseau = val;
+    }
+}
+
+class Smartphone extends Telephone {
+
+    Wifi myWifi = new Wifi();
+
+
+    void getReseau()
+    {
+        println("Je suis un smartphone et mon réseau mobile est de ", this.reseau);
+    }
+
+    void getWifi()
+    {
+        myWifi.getCnx();
+    }
+
+    void setWifi(int val)
+    {
+        myWifi.setCnx(val);
+    }
+}
+
+
+{
+    Telephone tel = new Telephone();
+    Smartphone smartphone = new Smartphone();
+
+    tel.setReseau(2);
+    smartphone.setReseau(3);
+
+    tel.getReseau();
+    smartphone.getReseau();
+
+    ((Telephone)(smartphone)).getReseau();
+
+    smartphone.setWifi(5);
+    smartphone.getWifi();
+}

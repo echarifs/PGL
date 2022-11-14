@@ -1,0 +1,7 @@
+//Test invalide qui lance une erreur contextuelle suite à la verification de la condition : 3.17
+
+//Resultat: 10 2
+
+{
+    void x;
+}

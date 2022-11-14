@@ -1,0 +1,12 @@
+//Test lève erreur en vérifiant la regle 3.22
+//Resultat: 
+
+{
+    float x = 2.0;
+    if (true){
+        print("lol");
+    }
+    else if("hehe"){
+        print("should not jumpe here");
+    }
+}

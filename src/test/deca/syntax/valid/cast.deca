@@ -1,0 +1,17 @@
+// Description:
+//    Test cast dans deux types differents et identiques
+// Resultat:
+//  
+
+{
+    int x;
+    float y;
+    x = (int)(10);
+    x = (int)(10.0);
+    x = (void)(10);
+
+
+    y = (int)(10.0);
+    y = (float)(10.0);
+
+}

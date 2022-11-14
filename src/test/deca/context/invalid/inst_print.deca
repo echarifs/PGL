@@ -1,0 +1,8 @@
+//Test lève erreur en vérifiant la regle 3.31
+//Resultat: 
+
+{
+    boolean x ;
+    x = true;
+    print(x);
+}

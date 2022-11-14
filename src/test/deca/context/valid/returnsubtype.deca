@@ -1,0 +1,11 @@
+class A {
+protected int x;
+}
+class B extends A {
+    
+A getX(A a) {
+    B b = new B();
+return b; // Erreur contextuelle : le type de 'a' (A) n'est pas
+// un sous-type de B.
+}
+}

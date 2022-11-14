@@ -1,0 +1,7 @@
+//Affectation de string a int
+
+//Resultat: Erreur ligne 6
+
+{
+    int a = "2";
+}

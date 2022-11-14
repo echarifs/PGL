@@ -1,0 +1,15 @@
+class C{
+    int d;
+}
+class A{
+    protected C a;
+    int setc( C x){
+
+    }
+}
+class B extends A{
+    void f(){
+        A z = new A();
+        z.setc(z.a) ;        
+    }
+}

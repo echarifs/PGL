@@ -1,0 +1,10 @@
+//Test invalide qui lance une erreur contextuelle suite à la verification de la condition : 3.17
+
+class Point {
+	int x;
+
+	int getX(){
+
+	}
+
+}

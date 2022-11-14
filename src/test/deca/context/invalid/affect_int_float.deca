@@ -1,0 +1,10 @@
+//Test invalide: Afffectation float et int
+
+// Resultat attendue: impossible
+
+{
+    int a = 0;
+    float b = 1;
+    
+    a = b;
+}

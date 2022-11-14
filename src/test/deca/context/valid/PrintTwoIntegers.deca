@@ -1,0 +1,9 @@
+//Test valide qui affiche deux int apres leur declaration
+
+//Resultat: 10 2
+
+{
+    int x = 10, y = 2;
+    println(y);
+    println(x);
+}

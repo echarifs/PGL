@@ -1,0 +1,15 @@
+class A
+{
+    protected int a;
+
+    int getA()
+    {
+        return this.a;
+    }
+}
+
+{
+    A a = new A();
+    int x = a.getA();
+    println(x);
+}

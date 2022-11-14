@@ -1,0 +1,11 @@
+// Description:
+// 	assign value
+//
+// Result:
+// left-hand side of assignment is not an lvalue
+
+{
+    int x;
+    1 = x;
+}
+

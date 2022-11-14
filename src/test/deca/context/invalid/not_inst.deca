@@ -1,0 +1,9 @@
+//Test pour not
+
+//Resultat: can't apply 'not' to a int
+
+{
+    int x = 0;
+    x = !x;
+    println(x) ; 
+}

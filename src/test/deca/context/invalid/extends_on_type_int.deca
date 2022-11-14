@@ -1,0 +1,7 @@
+//Test contextuellement invalide : on ne peut faire extends que sur des class
+
+//Resultat : extends_on_type_int.deca:5:0: extends can be applied only to classes
+
+class A extends boolean{
+
+}

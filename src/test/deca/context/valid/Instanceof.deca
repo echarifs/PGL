@@ -1,0 +1,21 @@
+// Description:
+//    Programme Codage de instanceof
+//
+//
+// Historique:
+//    cree le 18/01/2022
+
+class A { }
+class B extends A { }
+class C extends B { }
+{
+A a;
+B b;
+C c;
+a = new C();
+c = new C();
+if (c instanceof B) {
+b = (B)(c);
+println("ok");
+}
+}

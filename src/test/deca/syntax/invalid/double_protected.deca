@@ -1,0 +1,9 @@
+// Description:
+// 	protected deux fois
+//
+// Result:
+//  extraneous input 'protected' expecting IDENT
+
+class A {
+	protected protected int i;	
+}

@@ -1,0 +1,7 @@
+{
+    int x = 2, z;
+    int y = x;
+    x = 4 + y;
+    z = x + y;
+    println(z);
+}

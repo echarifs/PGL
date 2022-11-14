@@ -1,0 +1,17 @@
+// Description:
+//    Programme minimaliste verifiant println affiche un float.
+//
+// Resultats:
+//    5.0
+//    5.555555555555555555555555555
+//
+// Historique:
+//    cree le 01/01/2022
+
+//Test ameliore
+
+{
+        println(5.0);
+        println(5.555555555555555555555555555);
+        
+}

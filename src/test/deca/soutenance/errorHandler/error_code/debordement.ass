@@ -1,0 +1,20 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	TSTO #10001
+	BOV StackOverflowError
+	ADDSP #3
+ZeroDivisionError:
+	WSTR "Error: Use zero as division"
+	ERROR
+StackOverflowError:
+	WSTR "Error: Stack Overflow"
+	ERROR
+HeapOverflowError:
+	WSTR "Error: Heap Overflow"
+	ERROR
+NullObjectError:
+	WSTR "Error : Object is null"
+	ERROR
+; end main program
+

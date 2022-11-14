@@ -1,0 +1,12 @@
+class A {
+    int a ;
+}
+{
+    A a = new A();
+    A b = new A();
+    a.a = 5;
+    b.a = 10;
+    if (a.equals(b)){
+        print("hehehe");
+    }
+}

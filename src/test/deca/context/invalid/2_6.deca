@@ -1,0 +1,17 @@
+class A{
+    int a; 
+    void f(A x){
+
+    }
+}
+class C{
+
+}
+class B extends A{
+    void g(){
+        B b = new B();
+        A a = new A();
+        C c = new C();
+        b.f(c);
+    }
+}

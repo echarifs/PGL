@@ -1,0 +1,13 @@
+// regls 3.71) : lors d’un appel de la méthode, on utilise un mauvais paramètre.
+class A {
+	int x;
+	int getX(){
+            return x;
+	}
+}
+
+{
+	A a = new A();
+
+	println(a.getX(1));
+}

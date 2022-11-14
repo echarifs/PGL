@@ -1,0 +1,21 @@
+// Description:
+//    tests de if else if avec variable declaration 
+//
+// Resultats:
+//    ok
+//    ok
+
+{   
+    int i = 1;
+    int j = 0;
+    boolean x = true;
+    boolean y = false;
+    if (i < j) {
+      println("not ok"); 
+   } else{
+    println("error");
+}
+
+
+
+}

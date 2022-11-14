@@ -1,0 +1,12 @@
+// Description:
+//    Programme assign number too large
+//
+// Resultats:
+//    syntax errpr
+//
+// Historique:
+//    cree le 01/01/2022
+
+{
+        int c = 1111111111111111111111111111111111111111111111111111111111111111;
+}

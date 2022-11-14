@@ -1,0 +1,10 @@
+// Description:
+//    tests de decl_var avec initialization
+//
+// Resultats:
+//    1
+
+{
+   int i = 1; 
+   println(i);
+}

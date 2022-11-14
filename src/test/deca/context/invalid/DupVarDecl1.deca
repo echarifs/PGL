@@ -1,0 +1,6 @@
+//Test invalide: Declaration de la meme variable 2 fois
+//Resultat: Erreur ligne 5
+
+{
+    int a, a;
+}

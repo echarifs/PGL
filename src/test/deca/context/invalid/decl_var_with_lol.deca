@@ -1,0 +1,7 @@
+//Test invalide suite à la declaration d'unr variable de type null qui lance une erreur contextuelle suite à la verification de la condition : 0.2
+
+//Resultat: 10 2
+
+{
+    Lol x;
+}

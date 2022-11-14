@@ -1,0 +1,7 @@
+//Test contextuellement invalide : class extend une class qui n'a pas été encore déclaré
+
+//Resultat : Error_decl_class.deca:6:0: Super Class C should be declared first
+
+
+class D extends C { }
+class C { }

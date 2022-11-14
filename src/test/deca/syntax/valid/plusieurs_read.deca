@@ -1,0 +1,22 @@
+//Test qui valide plusieurs fonctions a la fonctions
+
+//Resultat: Plusieurs messages qui dependent de l'entree de l'utilisateur
+
+{
+    int x = readInt();
+    float y = readFloat();
+    float z = x;
+    int i = 10;
+    while (z != y && i > 0){
+        print("Entrez exactement: ");
+        println(z);
+        y = readFloat();
+        i=i-1;
+    }
+    if (i == 0 || z!=y){
+        println("Temps EPUISE");
+    }
+    else {
+        println("Bien joue");
+    }
+}

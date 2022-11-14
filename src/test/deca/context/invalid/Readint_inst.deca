@@ -1,0 +1,8 @@
+//Test pour readfloat
+
+//Resultat: 
+
+{
+    int x = readFloat();
+    println(0.5*(x*x)) ; 
+}

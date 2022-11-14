@@ -1,0 +1,9 @@
+//Test invalide: variable non declaree
+
+//Resultat: Erreur ligne 8
+
+{
+    int a;
+    int b = 2;
+    a = c;
+}

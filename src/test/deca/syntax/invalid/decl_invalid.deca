@@ -1,0 +1,8 @@
+//Test syntaxiquement incorrecte avec declaration de type seulement 
+
+{
+    //int c;
+    int; 
+    int a;
+    //int b;
+}

@@ -1,0 +1,6 @@
+//Test Syntaxe - Declaration de variables sans initialisation 1
+//Resultat: 0 Erreur
+
+{
+   int b,c;
+}

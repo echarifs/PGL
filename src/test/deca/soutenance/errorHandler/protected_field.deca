@@ -1,0 +1,18 @@
+// Description:
+//    Protected value can't be accessed in main
+//
+// Resultats:
+//    syntax errpr
+//
+// Historique:
+//    cree le 01/01/2022
+
+class A {
+	protected int x;
+}
+
+{
+	A p = new A();
+
+	println(p.x);
+}

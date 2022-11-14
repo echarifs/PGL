@@ -1,0 +1,6 @@
+//Test invalide: Erreur de syntaxe avec instruction (PASSE LE LEXER)
+
+{
+
+}
+println("Hello Invalide");

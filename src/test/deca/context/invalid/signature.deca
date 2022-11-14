@@ -1,0 +1,6 @@
+class A{
+int test(int x){}
+}
+class B extends A{
+int test(float x){} // Redéfinition de la méthode avec une mauvaise signature
+}

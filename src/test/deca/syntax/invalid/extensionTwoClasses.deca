@@ -1,0 +1,4 @@
+//Test syntaxiquement incorrecte avec extension two classes
+class A { }
+class B { }
+class C extends B extends C { }

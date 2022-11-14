@@ -1,0 +1,17 @@
+// Description:
+//    Programme qui cree deux classes 
+//
+// Resultats:
+//   Aucune erreur
+//
+
+class A {
+    void testA(){}
+}
+
+class B {
+    void testB(){}
+}
+
+
+

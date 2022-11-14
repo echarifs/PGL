@@ -1,0 +1,11 @@
+// Description:
+//    tests de if sans variable declaration
+//
+// Resultats:
+//    ok
+
+{   
+    if (1 >= 0) {
+      println("ok"); 
+   }
+}

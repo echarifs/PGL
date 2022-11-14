@@ -1,0 +1,9 @@
+//Programme invalide ou le main vient avant la declaration de classe
+
+{
+
+}
+
+class B {
+    void testB(){}
+}

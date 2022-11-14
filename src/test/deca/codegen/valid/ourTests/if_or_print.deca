@@ -1,0 +1,24 @@
+// Description:
+//    tests de if else if avec variable declaration and bool or
+//
+// Resultats:
+
+{   
+
+    boolean x = true;
+    boolean y = false;
+    if (y || y ){
+        println("two false should go false"); }
+    else if (x || y){
+    println("ok");
+    }else{
+    println("error");
+    }
+
+    if(x || x){
+    println("ok");
+    }
+
+
+
+}

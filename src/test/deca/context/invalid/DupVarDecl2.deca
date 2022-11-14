@@ -1,0 +1,9 @@
+//Test contextuellement invalide : double declaration de la meme variable
+
+//Resultat : Erreur ligne 8
+
+{
+    int a;
+    
+    int a;
+}

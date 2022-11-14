@@ -1,0 +1,15 @@
+// Description:
+//    tests de if avec condition true and false
+//
+// Resultats:
+//    ok
+//  ok for not
+
+{   
+    if (true) {
+      println("ok"); 
+   }
+    if (!false){
+        println("ok for not");
+    }
+}

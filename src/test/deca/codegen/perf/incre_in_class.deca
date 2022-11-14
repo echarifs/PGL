@@ -1,0 +1,27 @@
+class A{
+    int b ;
+
+    int getB(){
+        return this.b;
+    }
+
+    void setB(int x){
+        this.b = x;
+    }
+    
+    void incrementB(){
+        this.b = this.b + 1;
+    }
+}
+
+{
+    
+    A a = new A() ;
+
+    a.setB(0);
+    println(a.getB());
+    a.incrementB();
+    println(a.getB());
+
+
+}

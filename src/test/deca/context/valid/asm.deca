@@ -1,0 +1,9 @@
+// Description:
+// 	declaration asm
+//
+// Result:
+//Ok
+
+class A {
+    void test() asm ("Fonction assembleur.");
+}

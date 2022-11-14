@@ -1,0 +1,6 @@
+// Erreur génération du code :lors d’utilisation de variables non initialisés. 
+
+{
+    float x;
+    print(x);
+}

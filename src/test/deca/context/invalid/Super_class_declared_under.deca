@@ -1,0 +1,7 @@
+class A exrends B{
+    float c;
+}
+
+class B {
+    A a;
+}

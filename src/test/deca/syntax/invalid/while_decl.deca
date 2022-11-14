@@ -1,0 +1,9 @@
+//Test invalide qui declare une variable dans la condition while
+
+//Resultat: Erreur
+
+{
+    while(int x = 0){
+        println("Invalide");
+    }
+}

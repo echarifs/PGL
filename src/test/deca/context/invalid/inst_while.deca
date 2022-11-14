@@ -1,0 +1,10 @@
+//Test lève erreur en vérifiant la regle 3.25
+//Resultat: 
+
+{
+    float y = 2.0;
+    int x =0;
+    while(y){
+        print("don't torture me");
+    }
+}

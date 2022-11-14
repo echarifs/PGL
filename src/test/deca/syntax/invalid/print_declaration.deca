@@ -1,0 +1,6 @@
+//Test invalide: Affichage d'une declaration
+
+//Resultat: Erreur
+{
+    println(int a = 0;);
+}
